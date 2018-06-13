@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:clipChildren="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        tools:background="#cd6155">
+
+        <ImageView
+            android:id="@+id/iconPrimary"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:contentDescription="TODO"
+            android:src="@mipmap/ic_launcher_foreground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="210dp">
+
+            <Button
+                android:id="@+id/btnInicio"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:background="#a93226"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/btnInicio"
+
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="79dp"
+                tools:layout_editor_absoluteY="337dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

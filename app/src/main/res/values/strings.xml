@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cerradura</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="btnInicio">Iniciar</string>
+    <string name="btnSendPwd">Enviar</string>
+    <string name="btnConfigPwd">Enviar</string>
+    <string name="conectar">Toque el icono para conectarse</string>
+    <string name="setPwd">Establecer contraseña</string>
+    <string name="btnIngreso">Ingresar</string>
+
+</resources>
